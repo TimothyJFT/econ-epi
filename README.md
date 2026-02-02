@@ -1,6 +1,7 @@
 SPECIFIC CASES
 
 AGGREGATE RESULTS
+
 universal_control.py and compcontrol_4params run a single universal/compartmental epidemic simulation based on the parameters.txt file. 
 
 masterfile.py runs many epidemic simulations based on the desired parameters. It rewrites the parameters.txt file many times as it runs, for reasons of historical contingency. It saves its output to recent_results.csv.
